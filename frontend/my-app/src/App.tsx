@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Home from './Screens/Home';
 import Users from './Screens/Users';
 import List from './Screens/List';
-import { Button } from '@mui/material';
+import { Button, Divider } from '@mui/material';
 import './App.css';
 
 function App() {
@@ -17,9 +17,10 @@ function App() {
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static">
             <Toolbar>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <Typography variant="h6" component="div">
                 CoolPlanet
               </Typography>
+              <Typography variant="h6" component="div" sx={{flex: 1}} />
               <Button 
                 color="inherit"
                 onClick={() => navigate("/")}

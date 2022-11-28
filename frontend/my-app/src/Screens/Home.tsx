@@ -3,7 +3,7 @@ import { textAlign } from "@mui/system";
 import React from "react";
 
 function Home() {
-  const longHomeText = "Welcome to CoolPlanet's awesome Homepage. Here you can navigate to the List page where you can view all Users for some reason or enter your desired User ID in the input field and see that User's details"
+  const longHomeText = "Welcome to CoolPlanet's awesome Homepage. Here you can navigate to the List page where you can view all Users for some reason and either click a row or enter your desired User ID in the URL to see that User's details"
   return (
     <Box
       sx={{
